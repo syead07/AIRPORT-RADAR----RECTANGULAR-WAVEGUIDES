@@ -16,6 +16,8 @@ The key question is: How does this 1 megawatt pulse travel from the transmitter 
 
 A rectangular waveguide (WR-284) is a hollow aluminium tube with dimensions a = 72.14 mm (wider wall) and b = 34.04 mm (narrower wall). The ratio a = 2b ensures only the dominant TE10 mode propagates inside.
 
+<img width="906" height="438" alt="image" src="https://github.com/user-attachments/assets/c5ed30a8-8b0c-48be-ac76-21ee685e65c9" />
+
  
 Figure: WR-284 Rectangular Waveguide Cross-Section — TE10 Electric Field Pattern
 
@@ -25,7 +27,8 @@ Figure: WR-284 Rectangular Waveguide Cross-Section — TE10 Electric Field Patte
 
 The rectangular waveguide is the critical link between the transmitter, circulator, antenna, and receiver. All high-power signal routing in airport RADAR passes through WR-284 waveguide sections.
 
- 
+ <img width="938" height="344" alt="image" src="https://github.com/user-attachments/assets/8f609412-df0a-4f1f-b442-305a6a7d2203" />
+
 Figure: Airport RADAR System Flow — WR-284 Waveguide connects all components
 
 💡	Simple Summary:  Transmitter generates 1 MW pulse → Waveguide carries it → Antenna radiates it → Aircraft reflects echo → Waveguide brings echo back → Receiver processes it → ATC screen shows the aircraft blip.
@@ -34,7 +37,8 @@ Figure: Airport RADAR System Flow — WR-284 Waveguide connects all components
 
 The TE10 (Transverse Electric) mode is the dominant mode in WR-284. It is the only mode that propagates at 2.8 GHz in this waveguide, keeping the RADAR signal clean and predictable with no unwanted interference patterns.
 
- 
+ <img width="938" height="375" alt="image" src="https://github.com/user-attachments/assets/30cc071d-ac6f-4c42-88c0-96aa0dbbc6ed" />
+
 Figure: TE10 Mode — Electric field (left) and Magnetic field (right) inside WR-284
 
 •	Electric field (E) — vertical arrows, strongest in the centre, zero at the metal walls
@@ -48,7 +52,8 @@ Cutoff Frequency	fc = c / (2a)	c = 3x10^8 m/s  ;  a = wider wall in metres
 
 Every waveguide has a minimum frequency (cutoff). Signals below this frequency cannot travel through — they die out instantly. Signals above this frequency travel freely. For WR-284: fc = 2.079 GHz.
 
- 
+ <img width="906" height="359" alt="image" src="https://github.com/user-attachments/assets/c581658b-1b8d-473d-ac5d-6d0f98a5fe5d" />
+
 Figure: Cutoff Frequency — Signal dies below fc, travels freely above fc
 
 Formula 2 — Guide Wavelength
@@ -56,7 +61,8 @@ Guide Wavelength	lg = L / sqrt(1-(fc/f)^2)	L = free-space wavelength = c/f
 
 The wavelength inside the waveguide is longer than in free air because the wave bounces in a zigzag path between the walls. For WR-284 at 2.8 GHz: lg = 160 mm (vs 107 mm in open air).
 
- 
+ <img width="906" height="359" alt="image" src="https://github.com/user-attachments/assets/a534e25e-1cfd-4373-844e-c83abe742df8" />
+
 Figure: Guide Wavelength — Inside waveguide (160 mm) vs free-space (107 mm)
 
 Formula 3 — Group Velocity
@@ -67,14 +73,16 @@ Group Velocity	vg = c x sqrt(1-(fc/f)^2)	vg < c — actual pulse travel speed
 Formula 4 — Wave Impedance
 Wave Impedance (TE)	ZTE = 377 / sqrt(1-(fc/f)^2)	ZTE > 377 Ohms always ; matched to transmitter
 
- 
+ <img width="906" height="367" alt="image" src="https://github.com/user-attachments/assets/c06f6148-9eb1-46c3-9e75-f2dc5f63d822" />
+
 Figure: Wave Impedance Matching — Mismatched (left) vs Perfectly Matched (right)
 
 6. Step-by-Step Calculations — All Results
 
 Using WR-284 waveguide at 2.8 GHz (ASR-9 RADAR, Chennai/Mumbai/Delhi airports):
 
- 
+ <img width="938" height="453" alt="image" src="https://github.com/user-attachments/assets/fdb9cd34-90d2-4e76-b389-25ebb099b20f" />
+
 Figure: All 6 Calculation Steps — WR-284 at 2.8 GHz
 
 ✅	All answers verified:  fc=2.079 GHz (below 2.8 GHz — safe margin)  |  lg=160 mm  |  vg=2.01x10^8 m/s (67% of light)  |  ZTE=563 Ohm
@@ -96,7 +104,8 @@ Step 6 — Wave Impedance	ZTE = 377 / 0.670	= 563 Ohm
 
 The ASR-9 Airport Surveillance RADAR (used at Chennai, Mumbai, Delhi) achieves a detection range of 450 km. This range is possible ONLY because the rectangular waveguide carries the full 1 MW transmit power to the antenna with minimal loss.
 
- 
+ <img width="703" height="703" alt="image" src="https://github.com/user-attachments/assets/a626d6a8-4b71-4347-ab7f-8091515b0336" />
+
 Figure: ASR-9 RADAR Coverage — Chennai Airport, 450 km detection range
 
 🎯	Why range matters:  If a coaxial cable were used instead of WR-284 waveguide, the signal loss would be so high that the RADAR range would shrink from 450 km to under 20 km — completely useless for air traffic control.
