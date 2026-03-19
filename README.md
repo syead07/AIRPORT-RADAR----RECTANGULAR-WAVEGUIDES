@@ -16,7 +16,7 @@ The key question is: How does this 1 megawatt pulse travel from the transmitter 
 
 A rectangular waveguide (WR-284) is a hollow aluminium tube with dimensions a = 72.14 mm (wider wall) and b = 34.04 mm (narrower wall). The ratio a = 2b ensures only the dominant TE10 mode propagates inside.
 
-<img width="906" height="438" alt="image" src="https://github.com/user-attachments/assets/c5ed30a8-8b0c-48be-ac76-21ee685e65c9" />
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/c5ed30a8-8b0c-48be-ac76-21ee685e65c9" />
 
  
 Figure: WR-284 Rectangular Waveguide Cross-Section — TE10 Electric Field Pattern
@@ -27,7 +27,7 @@ Figure: WR-284 Rectangular Waveguide Cross-Section — TE10 Electric Field Patte
 
 The rectangular waveguide is the critical link between the transmitter, circulator, antenna, and receiver. All high-power signal routing in airport RADAR passes through WR-284 waveguide sections.
 
- <img width="938" height="344" alt="image" src="https://github.com/user-attachments/assets/8f609412-df0a-4f1f-b442-305a6a7d2203" />
+ <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/8f609412-df0a-4f1f-b442-305a6a7d2203" />
 
 Figure: Airport RADAR System Flow — WR-284 Waveguide connects all components
 
